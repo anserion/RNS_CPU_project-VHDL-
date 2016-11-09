@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/FPGA/RNS_CPU/RNS_conv_module_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="rns_conv_module_tb" />
+            <top_module name="rns_defs_pkg" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/rns_conv_module_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_conv_module_tb/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_conv_module_tb/result_rns" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_rns[1:3]</obj_property>
+      <obj_property name="ObjectShortName">result_rns[1:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_conv_module_tb/result_opss" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_opss[1:3]</obj_property>
+      <obj_property name="ObjectShortName">result_opss[1:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_conv_module_tb/result_opss_rns" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_opss_rns[1:3]</obj_property>
+      <obj_property name="ObjectShortName">result_opss_rns[1:3]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_conv_module_tb/result_opss_pss" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_opss_pss[7:0]</obj_property>
+      <obj_property name="ObjectShortName">result_opss_pss[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_conv_module_tb/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/FPGA/RNS_CPU/RNS_ALU_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="rns_alu_tb" />
+            <top_module name="rns_defs_pkg" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/rns_alu_tb/op1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op1[1:2]</obj_property>
+      <obj_property name="ObjectShortName">op1[1:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/op2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op2[1:2]</obj_property>
+      <obj_property name="ObjectShortName">op2[1:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/result_add" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_add[1:2]</obj_property>
+      <obj_property name="ObjectShortName">result_add[1:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/result_mul" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_mul[1:2]</obj_property>
+      <obj_property name="ObjectShortName">result_mul[1:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/result_neg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_neg[1:2]</obj_property>
+      <obj_property name="ObjectShortName">result_neg[1:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/result_inv" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result_inv[1:2]</obj_property>
+      <obj_property name="ObjectShortName">result_inv[1:2]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/result_equ" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">result_equ</obj_property>
+      <obj_property name="ObjectShortName">result_equ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/rns_alu_tb/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
